@@ -6,7 +6,6 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
-exports.__esModule = true;
 var react_1 = require("react");
 var TaskInput = function (_a) {
     var setTasks = _a.setTasks, tasks = _a.tasks;
@@ -34,4 +33,3 @@ var TaskInput = function (_a) {
             </div>
         </div>);
 };
-exports["default"] = TaskInput;

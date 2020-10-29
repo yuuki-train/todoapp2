@@ -10,7 +10,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
+
 var react_1 = require("react");
 var TaskItem_1 = require("./TaskItem");
 var TaskList = function (_a) {
@@ -35,4 +35,4 @@ var TaskList = function (_a) {
             </ul>}
         </div>);
 };
-exports["default"] = TaskList;
+

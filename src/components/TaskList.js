@@ -29,7 +29,9 @@ var TaskList = function (_a) {
     return (<div className="inner">
         {tasks.length <= 0 ? '登録されたTODOはありません。' :
         <ul className="task-list">
-            {tasks.map(function (task) { return (<TaskItem_1["default"] key={task.id} task={task} handleDelete={handleDelete} handleDone={handleDone}/>); })}   
+            {tasks.map(function (task) 
+            { return (<TaskItem_1 key={task.id} task={task} handleDelete={handleDelete} handleDone={handleDone} />); }
+            )}   
             </ul>}
         </div>);
 };

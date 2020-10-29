@@ -1,4 +1,5 @@
 "use strict";
+
 exports.__esModule = true;
 var react_1 = require("react");
 var TaskInput_1 = require("./components/TaskInput");
@@ -16,9 +17,9 @@ var initialState = [
     }
 ];
 var App = function () {
-    var _a = react_1.useState(initialState), tasks = _a[0], setTasks = _a[1];
+    var _a = react_1.useState(initialState), tasks = _a[0], setTasks = _a[1];    
     return (<div>
-            <TaskInput_1["default"] setTasks={setTasks} tasks={tasks}/>
-            <TaskList_1["default"] setTasks={setTasks} tasks={tasks}/>
+            <TaskInput_1 setTasks={setTasks} tasks={tasks}/>;
+            <TaskList_1 setTasks={setTasks} tasks={tasks}/>;
         </div>);
 };
